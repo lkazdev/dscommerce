@@ -29,6 +29,8 @@ public class Product {
 	private String description;
 	
 	private Double price;
+	
+	@Column(name = "img_url")
 	private String imgURL;
 	
 	@ManyToMany
